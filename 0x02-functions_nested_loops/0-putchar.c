@@ -7,7 +7,7 @@
  */
 
 int main(void)
-i{
+{
 	_putchar("_putchar\n");
 	return (0);
 }
