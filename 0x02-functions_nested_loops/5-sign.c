@@ -5,7 +5,7 @@
  *
  * @n: Make reference to the ASCII
  *
- * Return: returns 1 and prints 0 if n is greater than 0, return 0 when 0 and prints 0 and returns -1 prints - n is less than 0
+ * Return: 1 positive -1 negative 0 for 0
  */
 int print_sign(int n)
 {
