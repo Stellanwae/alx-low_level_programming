@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
- * print_to/_98 - prints whole numbers 0 to 98
+ * print_to_98 - prints whole numbers 0 to 98
  * @n: starting point
  *
  * Return: 0
