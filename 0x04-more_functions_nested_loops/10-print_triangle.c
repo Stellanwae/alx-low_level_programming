@@ -3,6 +3,7 @@
 /**
  * print_triangle - prints a triangle.
  * @size: number of lines.
+ *
  * Return: nothing
  */
 void print_triangle(int size)
