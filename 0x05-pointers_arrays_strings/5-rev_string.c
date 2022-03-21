@@ -6,28 +6,18 @@
  *
  * Return: void
  */
-void rev_string(char *s)
+void _puts(char *str)
 {
-	int i, c, k;
-	char *a, aux;
+	int counter = 0;
 
-	a = s;
-
-	while (s[c] != '\0')
+	while (counter >= 0)
 	{
-		c++;
-	}
-
-	for (k = 1; k < c; k++)
-	{
-		a++;
-	}
-
-	for (i = 0; i < (c / 2); i++)
-	{
-		aux = s[i];
-		s[i] = *a;
-		*a = aux;
-		a--;
+		if (str[counter] == '\0')
+		{
+			_putchar('\n');
+			break;
+		}
+		_putchar(str[counter]);
+		counter++;
 	}
 }
