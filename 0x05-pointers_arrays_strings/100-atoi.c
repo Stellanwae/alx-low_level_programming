@@ -1,5 +1,10 @@
 #include "main.h"
 
+/**
+ * _atoi - makes string to integer
+ * @s: string
+ * Return: int
+ */
 int _atoi(char *s)
 {
 	int c = 0;
