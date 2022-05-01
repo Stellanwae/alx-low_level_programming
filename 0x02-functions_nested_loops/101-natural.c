@@ -9,7 +9,7 @@
 
 int main()
 {
-  int n, s;
+  int n[4], s;
   s = '0';
   for(n = '0'; n < '1024'; n++)
   {
