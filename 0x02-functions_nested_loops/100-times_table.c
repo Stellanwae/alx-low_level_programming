@@ -20,8 +20,10 @@ void print_times_table(int n)
             if (o < n)
             {
                 _putchar(m*o);
+                _putchar(',');
+                _putchar(' ');
             }
-            else if ( o == n)
+            else if (o == n)
             {
                 _putchar(m*o);
             }
