@@ -11,23 +11,22 @@
 
 void print_times_table(int n)
 {
-    int m, o;
-
+    int m, o, p;
     for (m = '0'; m <= n; m++)
     {
         for (o = '0'; o <= n; o++)
         {
+            p = m*o;
             if (o < n)
             {
-                _putchar(m*o);
+                _putchar(p);
                 _putchar(',');
                 _putchar(' ');
             }
             else if (o == n)
             {
-                _putchar(m*o);
+                _putchar(p);
             }
-
         }
         _putchar('\n');
     }
