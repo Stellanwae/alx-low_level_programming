@@ -2,7 +2,7 @@
 #include <stdio.h>
 
 /**
-*int main- standard function
+*main- standard function
 *
 *Return: 0
 */
