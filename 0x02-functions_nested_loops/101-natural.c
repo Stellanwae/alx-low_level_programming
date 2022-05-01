@@ -16,7 +16,7 @@ int main(void)
    if (n % 3 == 0 || n % 5 == 0)
    {
      s += n;
-     if (n == 1023)
+     if (n == 1022)
      {
        printf("%d\n",s);
      }
