@@ -3,9 +3,9 @@
 #include <stdlib>
 
 /**
+*@n - ...
 *
-*
-*
+*Return: 0
 */
 
 int main()
