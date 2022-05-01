@@ -13,20 +13,20 @@ void print_times_table(int n)
 {
     int m, o;
 
-    for (m = 0; m <= n; m++)
+    for (m = '0'; m <= n; m++)
     {
-        for (o = 0; o <= n; o++)
+        for (o = '0'; o <= n; o++)
         {
             if (o < n)
             {
-                printf("%d, ", m*o);
+                _putchar(m*o);
             }
             else if ( o == n)
             {
-                printf("%d",m*o);
+                _putchar(m*o);
             }
 
         }
-        printf("\n");
+        _putchar('\n');
     }
 }
