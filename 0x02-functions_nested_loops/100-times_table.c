@@ -11,8 +11,7 @@
 
 void print_times_table(int n)
 {
-    int m, o, p;
-    p = m*o;
+    int m, o;
 
     for (m = '0'; m <= n; m++)
     {
@@ -20,13 +19,13 @@ void print_times_table(int n)
         {
             if (o < n)
             {
-                _putchar(p);
+                _putchar(m*o);
                 _putchar(',');
                 _putchar(' ');
             }
             else if (o == n)
             {
-                _putchar(p);
+                _putchar(m*o);
             }
 
         }
