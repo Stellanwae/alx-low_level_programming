@@ -1,2 +1,2 @@
-**0X15.C- FILE I/O\n**
+**0X15.C- FILE I/O**
 **TASKS**
