@@ -15,7 +15,7 @@
   for (length = 0; h != NULL; lenghth++)
   {
     printf("%d\n", h->n);
-    h = h->next;
+    //h = h->next;
   }
   return(length);
 }
