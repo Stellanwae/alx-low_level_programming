@@ -11,7 +11,7 @@
  */
 size_t dlistint_len(const dlistint_t *h);
 {
-	size_t;
+	size_t listlen;
 	for(listlen = 0; h != NULL; listlen++)
 	{
 		h = h->next;
