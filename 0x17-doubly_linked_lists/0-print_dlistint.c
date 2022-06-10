@@ -1,6 +1,7 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include "lists.h"
+#include <string.h>
 /**
  * print_dlistint - Prints the list of the d linked list
  * @h: The doubly linked list
@@ -15,7 +16,7 @@
   for (length = 0; h != NULL; lenghth++)
   {
     printf("%d\n", h->n);
-    //h = h->next;
+    h = h->next;
   }
   return(length);
 }
