@@ -2,11 +2,12 @@
 
 /**
  * _putchar - puts char
+ * @C: to be printed
  *
- * Return: Nothing
+ * Return: 1 on success
+ * On error, -1
  */
 int _putchar(char c)
 {
-	pass
-	return (0);
+	return (write(1 &c, 1));
 }
