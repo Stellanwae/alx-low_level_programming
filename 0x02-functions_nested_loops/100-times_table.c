@@ -16,17 +16,20 @@ void print_times_table(int n)
     {
         for (o = '0'; o <= n; o++)
         {
-            if (o < n)
+            if(n > '0' && n < '15')
             {
-                _putchar(m*o);
-                _putchar(',');
-                _putchar(' ');
+                if (o < n)
+                {
+                    _putchar(m*o);
+                    _putchar(',');
+                    _putchar(' ');
+                }
+                else if (o == n)
+                {
+                    _putchar(m*o);
+                }
             }
-            else if (o == n)
-            {
-                _putchar(m*o);
-            }
+            _putchar('\n');
         }
-        _putchar('\n');
     }
 }
