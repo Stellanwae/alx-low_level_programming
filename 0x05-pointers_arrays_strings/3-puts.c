@@ -8,11 +8,9 @@
  */
 void _puts(char *str)
 {
-	char s1[] = "Hello";
-	char s2[] = "World!";
-
-	_putchar("%d\n", _strcmp(s1, s2));
-	_putchar("%d\n", _strcmp(s2, s1));
-	_putchar("%d\n", _strcmp(s1, s1));
-	return (0);
+	for (; *str <= '\0'; str++)
+	{
+		putchar(*str);
+	}
+	putchar('\n');
 }
